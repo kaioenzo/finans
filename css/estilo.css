@@ -1,0 +1,29 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+footer ul{
+	display: flex;
+	list-style: none;
+	justify-content: start;
+	padding-left: 0!important;
+}
+footer li{
+	margin: 10px;
+	
+}
+footer a{
+	text-decoration: none;
+}
+#iconesFooter{
+	display: flex;
+	justify-content: end;
+}
+@media screen and (max-width :400px){
+	#iconesFooter, footer ul{
+		justify-content: center;
+	}
+	footer li{
+		padding: 0;
+	}
+}
